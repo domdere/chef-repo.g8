@@ -9,7 +9,7 @@ So am I!
 Here are some of the notes I took while setting it up on my system:
 
 -   [**Installing Chef On the Server and Client**] [installing-chef]
--   [**Getting started for Development**] [getting-started-for-development].  How to setup/install `vagrant`, `vbguest` and `librarian-chef`
+-   [**Getting started for Development**] [getting-started-for-development].  How to setup/install `virtualbox`, `vagrant`, `vbguest` and `librarian-chef`
 
 # Giter8
 
