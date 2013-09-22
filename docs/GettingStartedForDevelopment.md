@@ -27,7 +27,7 @@ I've tested **v0.9.0**
 
 Install this with `gem`, `sudo gem install vagrant-vbguest`
 
-Install the `ruby` environment if you dont have `gem` (see [**here**] [ruby-downloads]).
+Install the `ruby` environment if you dont have `gem` (see [**here**] [ruby-downloads] or just `sudo apt-get install ruby1.9.1-dev` for the `aptitude` package on **Ubuntu**).
 
 ## Librarian-Chef
 
@@ -36,6 +36,7 @@ This is a dependency manager for Chef cookbooks.
 I've tested **v0.0.1**
 
 This is also a ruby gem, so install it with `sudo gem install librarian-chef`
+
 
 # Downloading the Cookbooks
 
