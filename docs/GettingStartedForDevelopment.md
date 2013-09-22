@@ -8,7 +8,7 @@ I've tried **v4.2.10**
 
 ### Ubuntu
 
--   You can try your luck with the `aptitude` package `sudo apt-get install virtual-box`
+-   You can try your luck with the `aptitude` package `sudo apt-get install virtualbox`
 
 ### General
 
