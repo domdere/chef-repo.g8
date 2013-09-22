@@ -19,7 +19,7 @@ Try looking [**here**] [virtualbox-downloads].
 I've tested this with `vagrant` **v1.3.1**
 
 For me the `vagrant` package on `aptitude` was too old so I just got the `.deb` 
-from [**here**] [vagrant-downloads] (**Windows/Mac** users should go there too).
+from [**here**] [vagrant-downloads] ( **Windows/Mac** users should go there too).
 
 ## VBGuest
 
