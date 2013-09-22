@@ -1,5 +1,7 @@
 # Giter8 Chef Repo Template
 
+Based on [**opscode/chef-repo**] [opscode-chefrepo]
+
 ## New to Chef?
 
 So am I!
@@ -32,3 +34,4 @@ This template can be downloaded with the command (assuming `~/bin` is added to y
 
 [giter8]: https://github.com/n8han/giter8 "n8han/giter8 on github.com" 
 [giter8-install]: https://github.com/n8han/giter8/blob/master/README.markdown#installation "Installation instructions for Giter8"
+[opscode-chefrepo]: https://github.com/opscode/chef-repo.git "opscode/chef-repo on GitHub.com"
