@@ -9,7 +9,7 @@ First, create a directory for the data bag.
 
 Then create the JSON files for items that will go into that bag.
 
-    $EDITOR data_bags/BAG/ITEM.json
+    \$EDITOR data_bags/BAG/ITEM.json
 
 The JSON for the ITEM must contain a key named "id" with a value equal to "ITEM". For example,
 
