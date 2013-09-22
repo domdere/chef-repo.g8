@@ -1,0 +1,25 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "precise64"
+  config.vm.box_url = "http://files.vagrantup.com/precise64.box"
+
+  config.vm.network :forwarded_port, guest: 22, host: 60022
+  config.vm.network :forwarded_port, guest: 80, host: 60080
+  config.vm.network :forwarded_port, guest: 8080, host: 60088
+  config.vm.network :forwarded_port, guest: 443, host: 60443
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.customize ["modifyvm", :id, "--memory", 1024]
+  end
+
+  config.vm.provision :chef_client do |chef|
+    chef.chef_server_url = "$chef_server_url$"
+    chef.validation_key_path = "$chef_validation_key_path$"
+
+    #chef.log_level = :debug
+
+    chef.add_role("$initial_role;format="camel"$")
+  end
+end

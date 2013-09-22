@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+# This tells librarian-chef to look at the opscode community cookbook DB
+# if no other source is given.
+site 'http://community.opscode.com/api/v1'
+
+# This will look for an Opscode Community cookbook for git
+cookbook 'git'
+
+# This will try and install the cook book from the provided git URL
+# cookbook 'somecookbook',
+#    :git => 'https://github.com/someguy/somecookbook'

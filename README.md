@@ -8,7 +8,8 @@ So am I!
 
 Here are some of the notes I took while setting it up on my system:
 
-
+-   [**Installing Chef On the Server and Client**] [installing-chef]
+-   [**Getting started for Development**] [getting-started-for-development].  How to setup/install `vagrant`, `vbguest` and `librarian-chef`
 
 # Giter8
 
@@ -35,3 +36,5 @@ This template can be downloaded with the command (assuming `~/bin` is added to y
 [giter8]: https://github.com/n8han/giter8 "n8han/giter8 on github.com" 
 [giter8-install]: https://github.com/n8han/giter8/blob/master/README.markdown#installation "Installation instructions for Giter8"
 [opscode-chefrepo]: https://github.com/opscode/chef-repo.git "opscode/chef-repo on GitHub.com"
+[installing-chef]: ./docs/InstallingChef.md "Installing Chef"
+[getting-started-for-development]: ./docs/GettingStartedForDevelopment.md "Getting Started For Development"
